@@ -1,0 +1,121 @@
+body {
+  font-family: "Lato", sans-serif;
+  margin-left: 400px;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+.main-head{
+  height: 150px;
+  background: #FFF;
+
+}
+
+.sidenav {
+  height: 100%;
+  background-color:steelblue;
+  background-image: linear-gradient(to bottom right, steelblue,indigo);
+  overflow-x: hidden;
+  padding-top: 20px;
+  max-width: 400px;
+}
+
+
+.main {
+  padding: 0px 10px;
+
+}
+
+@media screen and (max-height: 350px) {
+  .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 350px) {
+
+}
+
+@media screen and (min-width: 768px){
+  .main{
+      margin-left: 40%; 
+  }
+
+  .sidenav{
+      width: 40%;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+  }
+
+}
+.col-md-12{
+  height: 100vh;
+}
+
+.login-main-text{
+  margin-top: 20%;
+  padding: 60px;
+  color: #fff;
+}
+
+.login-main-text h2{
+  font-weight: 300;
+}
+#para2{
+  font-size: 35px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+#para1{
+  font-size: 25px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.btn-outline-danger{
+  background-color: steelblue !important;
+  color: #fff;
+  width: 130px;
+  height: 50px;
+  border-color: white;
+}
+.btn-outline-light{
+  background-color: steelblue !important;
+  color: #fff;
+  width: 130px;
+  height: 50px;
+  margin-left: 10px;
+}
+#o2{
+  width: 50px;
+  opacity: 75%;
+  align-items: right;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+#welcomeSidenav{
+  background: linear-gradient(142deg, #2e7a2c, #205748, #1b2d59, #591b52, #59541b, #59301b, #4a1825, #2e184a,#1b2d59,#205748,#2e7a2c);
+    background-size: 1600% 1600%;
+
+    -webkit-animation: animeBg 50s ease infinite;
+    -moz-animation: animeBg 50s ease infinite;
+      animation: animeBg 50s ease infinite;
+}
+@-webkit-keyframes animeBg {
+  0%{background-position:17% 0%}
+  50%{background-position:84% 100%}
+  100%{background-position:17% 0%}
+}
+@-moz-keyframes animeBg {
+  0%{background-position:17% 0%}
+  50%{background-position:84% 100%}
+  100%{background-position:17% 0%}
+}
+@keyframes animeBg {
+  0%{background-position:17% 0%}
+  50%{background-position:84% 100%}
+  100%{background-position:17% 0%}
+}

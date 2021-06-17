@@ -1,0 +1,82 @@
+.list-group-item{
+    background-color: transparent;
+    border-style:solid;
+    border:none;
+}
+
+.card{
+    background-color: transparent;
+    border-style:solid;
+    border:none;
+
+}
+
+#solList{
+    color:black;
+}
+
+#postGoster{
+    background-color: MediumPurple; 
+    background-image: linear-gradient(to bottom right,OldLace	,GhostWhite);
+    border-width:2px;
+    border-radius: 20px;
+}
+#navbar{
+    background-color: MediumPurple;
+    background-image: linear-gradient(to right, MediumPurple, steelblue);
+    border-bottom: solid;
+    border-color:white;
+}
+#layoutBody{
+    background-color: navy; 
+    background-image: linear-gradient(to bottom right,navy,steelblue,powderblue,powderblue,Azure,Azure,whitesmoke); 
+    min-height:100vh;
+}
+#activityKatilimci{
+    background-image: linear-gradient(to right, OldLace,GhostWhite);
+    border-width:2px;
+
+    border-radius: 20px;
+
+}
+#tarihIcon{
+    float:right;
+}
+#postYorum{
+    background-color: MediumPurple; 
+    background-image: linear-gradient(to bottom right,OldLace	,GhostWhite);
+    border-width:2px;
+    border-radius: 20px;
+}
+#comment{
+    border-radius: 20px;
+
+}
+#tableFriends{
+    background-image: linear-gradient(to bottom right,OldLace);
+    border-radius: 20px;
+    border:none;
+    border-collapse: collapse;
+
+}
+#trFriends{
+    border-collapse: collapse;
+}
+
+
+#rightSidenav{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  right: 0;
+  
+  margin-top:50px;
+  z-index:5;
+}
+#navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    z-index: 10;
+    top: 0;
+    width: 100%;
+  }

@@ -1,0 +1,112 @@
+body {
+  background-color: #eeeeee;
+}
+
+.h7 {
+  font-size: 0.8rem;
+}
+
+.gedf-wrapper {
+  margin-top: 0.97rem;
+}
+
+@media (min-width: 992px) {
+  .gedf-main {
+      padding-left: 4rem;
+      padding-right: 4rem;
+  }
+  .gedf-card {
+      margin-bottom: 2.77rem;
+  }
+}
+
+/**Reset Bootstrap*/
+.dropdown-toggle::after {
+  content: none;
+  display: none;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+      padding-top: 15px;
+  }
+  .sidenav a {
+      font-size: 18px;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Yorumlar A tagına tıkladığında bütün yorumları açıyor, tıklanmadığında kapalı */
+.card-comments {
+  display: none;
+  margin-top: 16px;
+}
+
+.open-comments {
+  display: block;
+}
+
+/* Her bir yorum */
+.card-comment {
+  display: flex;
+  align-items: center;
+}
+
+.open-comment {
+  animation: openMenu 0.5s linear;
+}
+
+.card-comment h6 {
+  margin-right: 10px;
+}
+
+/* Yorum yapma kısmı (Input & Button) */
+.card-input {
+  animation: openMenu 0.5s linear;
+}
+
+@keyframes openMenu {
+  from {
+      visibility: hidden;
+      opacity: 0;
+  }
+  to {
+      visibility: visible;
+      opacity: 1;
+  }
+}
